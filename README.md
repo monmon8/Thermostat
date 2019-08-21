@@ -1,5 +1,5 @@
 # Thermostat - Progress so far:
-* So far, we implemented the 1st user story
+* So far, we implemented user stories 1-3
 
 # Thermostat: business logic
 
