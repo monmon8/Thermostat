@@ -20,4 +20,11 @@ describe('Feature Test:', function() {
     thermostat.down();
     expect(thermostat.getCurrentTemperature()).toEqual(19);
   });
+
+  it ('has the minimum temperature 10 degrees', function(){
+    for (var i = 0; i < 11; i++) {
+      thermostat.down();
+    }
+    expect(thermostat.getCurrentTemperature()).toEqual(10);
+  });
 });
